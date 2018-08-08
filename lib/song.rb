@@ -21,6 +21,7 @@ class Song
       if !genres_return.include?(genre)
         genres_return << genre
       end
+    end
     genres_return
   end
 
@@ -30,6 +31,7 @@ class Song
       if !artists_return.include?(artist)
         artists_return << artist
       end
+    end
     artists_return
   end
 
@@ -56,5 +58,5 @@ class Song
     end
     artist_hash
   end
-  
+
 end
